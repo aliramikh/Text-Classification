@@ -1,0 +1,58 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="pycaw" />
+            <item index="1" class="java.lang.String" itemvalue="comtypes" />
+            <item index="2" class="java.lang.String" itemvalue="cv2" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N802" />
+          <option value="N806" />
+          <option value="N801" />
+          <option value="N813" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyRedeclarationInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="max" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnreachableCodeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="main.EMP.__getitem__" />
+          <option value="typing.TextIO.__add__" />
+          <option value="str.isafile" />
+          <option value="typing.TextIO.readLines" />
+          <option value="main2.Recangle.*" />
+          <option value="str.__pos__" />
+          <option value="_dict_keys.__getitem__" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
